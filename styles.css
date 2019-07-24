@@ -4,7 +4,6 @@ body {
     margin: 0;
 }
 nav {
-    border: 1px solid blue;
     display: flex;
     flex-direction: row;
     position: relative;
@@ -12,7 +11,6 @@ nav {
     top: 0;
 }
 nav div {
-    border: 1px solid red;
     padding-top: 5%;
     width: 14.19%;
 }
@@ -35,4 +33,26 @@ nav div {
     border-radius: 8%;
     position: relative;
     padding: 9%;
+}
+.section1{
+    width: 100%;
+}
+.section1-panel{
+    border: 1px solid red; 
+    box-sizing: border-box;
+    float: left;
+    height: auto;
+    width: 50%;
+}
+.section1-panel img{
+    border-radius: 8%;
+    width: 8%;
+}
+.bold{
+    font-size: 2.5em;
+    font-weight: 800;
+}
+.comment{
+    font-size: 1em;
+    font-weight: bold;
 }
