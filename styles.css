@@ -3,6 +3,9 @@ body {
     padding: 0;
     margin: 0;
 }
+
+/* Navbar */
+
 nav {
     display: flex;
     flex-direction: row;
@@ -34,6 +37,9 @@ nav div {
     position: relative;
     padding: 9%;
 }
+
+/*  Section 1  */
+
 .section1-panel{
     box-sizing: border-box;
     float: left;
@@ -86,7 +92,6 @@ nav div {
     font-size: 1.2em;
     font-weight: bold;
 }
-
 .arrow{
     left: 10%;
     margin-bottom: 5%;
@@ -96,14 +101,16 @@ nav div {
 .arrow img{
     width: 10%;
 }
+
+/*  Section 2  */
+
 .section-2 {
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
     position: relative;
+    width: 100%;
 }
 .section2-panel{
-    border: 1px solid green;
     box-sizing: border-box;
     padding: 5%;
     width: 33.333%;
@@ -119,3 +126,25 @@ nav div {
 .arrow-2 img {
     width: 20%;
 }
+
+/*  Section 3  */
+
+.section-3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.sctn-3-1 {
+    border: 1px solid blue;
+    width: 70%;
+}
+.sctn-3-1 img {
+    height: 50%;
+    margin: 0 auto;
+    width: 50%;
+}
+.sctn-3-2 {
+    border: 1px solid green;
+    width: 30%;
+}
+
