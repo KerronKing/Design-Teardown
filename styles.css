@@ -34,9 +34,6 @@ nav div {
     position: relative;
     padding: 9%;
 }
-.section1{
-    width: 100%;
-}
 .section1-panel{
     box-sizing: border-box;
     float: left;
@@ -44,10 +41,6 @@ nav div {
     position: relative;
     width: 50%;
 }
-
-/* .article-title {
-    
-} */
 .section-author {
     font-size: 1.3em;
     height: 70px;
@@ -103,8 +96,26 @@ nav div {
 .arrow img{
     width: 10%;
 }
+.section-2 {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
 .section2-panel{
     border: 1px solid green;
-    float: left;
-    width: 33.3%;
+    box-sizing: border-box;
+    padding: 5%;
+    width: 33.333%;
+}
+.stn-2-author {
+    padding-top: -3%;
+}
+.arrow-2 {
+    margin-bottom: 5%;
+    position: relative; 
+    width:50%;
+}
+.arrow-2 img {
+    width: 20%;
 }
