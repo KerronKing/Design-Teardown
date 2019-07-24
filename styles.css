@@ -42,11 +42,38 @@ nav div {
     box-sizing: border-box;
     float: left;
     height: auto;
+    position: relative;
     width: 50%;
 }
-.section1-panel img{
+
+/* .article-title {
+    
+} */
+.section-author {
+    border: 1px solid green;
+    font-size: 1em;
+    height: 70px;
+    position: relative;
+    margin-top: 30%;
+    left: 10%;
+    width: 75%;
+}
+.section-author img{
     border-radius: 8%;
-    width: 8%;
+    height: 70px;
+    padding-bottom: 0;
+    width: 70px;
+}
+.section-author span {
+    vertical-align: 130%;
+}
+.section-author-name {font-weight: bold;}
+.article-title {
+    border: 1px solid blue;
+    position: relative;
+    left: 10%;
+    margin-top: 5%;
+    width: 75%;
 }
 .bold{
     font-size: 2.5em;
@@ -55,4 +82,13 @@ nav div {
 .comment{
     font-size: 1em;
     font-weight: bold;
+}
+.section1-list {
+    border: 1px solid purple;
+    font-size: 0.9em;
+    margin-bottom: 20%;
+    position: relative;
+    left: 10%;
+    margin-top: 5%;
+    width: 75%;
 }
