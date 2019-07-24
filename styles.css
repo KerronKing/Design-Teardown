@@ -1,0 +1,38 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+nav {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    text-align: center;
+    top: 0;
+}
+nav div {
+    border: 1px solid red;
+    padding-top: 5%;
+    width: 14.19%;
+}
+.logo{
+    width: 10.19%;
+}
+.sqr {
+    position: relative;
+    height: 30%;
+    left: 30%;
+    width: 30%;
+}
+.nav-btn {
+    width: 18.19%;
+}
+.nav-btn button {
+    bottom: auto;
+    border-color: black;
+    border-width: medium;
+    border-radius: 8%;
+    position: relative;
+    padding: 9%;
+}
