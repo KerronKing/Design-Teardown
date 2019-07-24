@@ -51,7 +51,7 @@ nav div {
 } */
 .section-author {
     border: 1px solid green;
-    font-size: 1em;
+    font-size: 1.3em;
     height: 70px;
     position: relative;
     margin-top: 30%;
@@ -86,9 +86,24 @@ nav div {
 .section1-list {
     border: 1px solid purple;
     font-size: 0.9em;
-    margin-bottom: 20%;
+    margin-bottom: 15%;
     position: relative;
     left: 10%;
     margin-top: 5%;
     width: 75%;
+}
+.section1-list ul li{
+    display: inline;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.arrow{
+    left: 10%;
+    margin-bottom: 5%;
+    position: relative; 
+    width:50%;
+}
+.arrow img{
+    width: 10%;
 }
