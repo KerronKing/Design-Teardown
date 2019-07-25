@@ -231,6 +231,32 @@ nav div {
     border-radius: 12px;
     font-size: 2em;
     padding: 1%;
-} 
+}
+.section-7{
+    margin-top: 5%;
+}
+.section-7 img{
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    width: 20%;
+}
+.person-week{
+    box-sizing: border-box;
+    float: left;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 70%;
+}
+.person-week h2{
+    font-size: 1.2em;
+    font-weight: lighter;
+    line-height: 2;
+    text-transform: uppercase;
+}
+.person-week p{
+    font-size: 1.2em;
+    line-height: 1.6;
+}
 
 
