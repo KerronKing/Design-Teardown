@@ -286,10 +286,20 @@ nav div {
     width: 60%;
 }
 .section-author-2 span {
-    font-size: 1.3em;
+    
 }
 .sctn-atr {
+    font-size: 1.3em;
     text-decoration: underline;
+}
+.section-author-2 h2{
+    font-size: 2em;
+}
+.section-author-2 p{
+    font-size: 1.2em;
+}
+.wrote{
+    font-size: 1.3em;
 }
 
 
