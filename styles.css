@@ -193,5 +193,17 @@ nav div {
 .s4-p {
     margin-left: -5%;
 }
+.section-5 {
+    padding: 7%;
+    text-align: center;
+}
+.section-5 a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.section-5 hr {
+    border-top: 5px solid red;
+    width: 30%;
+}
 
 
