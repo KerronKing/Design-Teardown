@@ -132,19 +132,52 @@ nav div {
 .section-3 {
     display: flex;
     flex-direction: row;
+    position: relative;
     width: 100%;
 }
 .sctn-3-1 {
     border: 1px solid blue;
-    width: 70%;
+    position: relative;
+    width: 67%;
 }
 .sctn-3-1 img {
-    height: 50%;
+    left: 40%;
     margin: 0 auto;
-    width: 50%;
+    position: relative;
+    top: 2%;
+    width:25%;
+}
+
+.sctn-3-1 h2{
+    font-size:2.5em;
+    text-align: center;
+        
+}
+.section3-description{
+    font-size: 1.2em;
+    padding-bottom: 0;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 3%;
+    text-align: justify;
+}
+.sctn-3-1 button{
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    left: 40%;
+    padding: 2%;
+    position: relative;
+    margin-top: 5%;
+}
+.account{
+    font-size: 1em;
+    left: 2%;
+    position: relative;
+    text-align: center;
 }
 .sctn-3-2 {
     border: 1px solid green;
-    width: 30%;
+    width: 33%;
 }
 
