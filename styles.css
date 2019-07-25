@@ -350,3 +350,25 @@ nav div {
     border-radius: 10px;
     width: 60%;
 }
+footer {
+    border: 1px solid red;
+    text-align: center;
+}
+footer h3 {
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+footer ul li{
+    display: inline-block;
+    padding-left: 1%;
+}
+footer .ftr-list li::before {
+    content: '\00a0\2022\00a0\00a0';
+	color:#999;
+	color:rgba(0,0,0,0.5);
+	font-size:11px;
+}
+.last {
+    padding-bottom: 5%;
+}
+.ftr-list-2 {text-decoration: underline;}
