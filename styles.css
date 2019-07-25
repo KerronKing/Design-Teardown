@@ -41,6 +41,7 @@ nav div {
 /*  Section 1  */
 
 .section1-panel{
+    border:1px solid red;
     box-sizing: border-box;
     float: left;
     height: auto;
@@ -257,6 +258,10 @@ nav div {
 .person-week p{
     font-size: 1.2em;
     line-height: 1.6;
+}
+section-8{
+    box-sizing: border-box;
+    width: 100%;
 }
 
 
