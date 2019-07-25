@@ -202,8 +202,22 @@ nav div {
     text-transform: uppercase;
 }
 .section-5 hr {
-    border-top: 5px solid red;
     width: 30%;
+}
+.section-6 {
+    border-top: 5px solid red;
+    line-height: 2;
+    position: relative;
+    text-align: center;
+}
+.section-6 h2 {
+    font-size: 2.5em;
+    text-decoration: underline;
+}
+.s6-p {
+    font-size: 1.3em;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 
