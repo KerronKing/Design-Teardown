@@ -111,7 +111,6 @@ nav div {
     width: 100%;
 }
 .section2-panel{
-    border: 1px solid red;
     box-sizing: border-box;
     padding: 5%;
     width: 33.333%;
@@ -137,11 +136,11 @@ nav div {
     width: 100%;
 }
 .sctn-3-1 {
-    border: 1px solid blue;
+    border: 1px solid red;
     position: relative;
-    width: 67%;
+    width: 67%
 }
-.sctn-3-1 img {
+.fox-img {
     left: 40%;
     margin: 0 auto;
     position: relative;
@@ -149,7 +148,7 @@ nav div {
     width:25%;
 }
 
-.sctn-3-1 h2{
+.s3-title{
     font-size:2.5em;
     text-align: center;
         
@@ -162,7 +161,7 @@ nav div {
     padding-top: 3%;
     text-align: justify;
 }
-.sctn-3-1 button{
+.s3-button{
     border-radius: 10px;
     font-size: 1.2em;
     font-weight: bold;
@@ -178,9 +177,21 @@ nav div {
     text-align: center;
 }
 .sctn-3-2{
-    border: 1px solid red;
     box-sizing: border-box;
     padding: 1% 5% 5% 5%;
     width: 33.333%;
 }
+.width { 
+    border: 1px solid red;
+    border-radius: 1%;
+    margin: 0 auto;
+    width: 90%;
+}
+.width img {
+    width: 20%;
+}
+.s4-p {
+    margin-left: -5%;
+}
+
 
