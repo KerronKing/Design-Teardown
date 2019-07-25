@@ -352,14 +352,19 @@ nav div {
 }
 footer {
     border: 1px solid red;
+    padding-bottom: 5%;
     text-align: center;
 }
 footer h3 {
+    font-size: 1em;
     padding-top: 5%;
     padding-bottom: 3%;
 }
+.ftr-list{  
+}
 footer ul li{
     display: inline-block;
+    font-size: 1.5em;
     padding-left: 1%;
 }
 footer .ftr-list li::before {
@@ -371,4 +376,10 @@ footer .ftr-list li::before {
 .last {
     padding-bottom: 5%;
 }
+.ftr-p{
+    padding-bottom: 2%;
+}
 .ftr-list-2 {text-decoration: underline;}
+.list-links{
+    font-size: 0.7em;   
+}
