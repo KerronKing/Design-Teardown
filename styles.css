@@ -297,9 +297,29 @@ nav div {
 }
 .section-author-2 p{
     font-size: 1.2em;
+    line-height: 1.6;
 }
 .wrote{
-    font-size: 1.3em;
+    font-size: 1.1em;
+    text-transform: uppercase;
 }
-
+.section-9{
+    border: 1px solid blue;
+    width:100%;   
+}
+.section-9:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.left-margin{
+    margin-left: 4%;
+    margin-top: 1%;
+    width: 60%;
+}
+.left-margin button{
+    border-radius:10px;
+    font-size: 1.5em;
+    padding: 3%;
+}
 
