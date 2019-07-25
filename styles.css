@@ -111,6 +111,7 @@ nav div {
     width: 100%;
 }
 .section2-panel{
+    border: 1px solid red;
     box-sizing: border-box;
     padding: 5%;
     width: 33.333%;
@@ -176,8 +177,10 @@ nav div {
     position: relative;
     text-align: center;
 }
-.sctn-3-2 {
-    border: 1px solid green;
-    width: 33%;
+.sctn-3-2{
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding: 1% 5% 5% 5%;
+    width: 33.333%;
 }
 
